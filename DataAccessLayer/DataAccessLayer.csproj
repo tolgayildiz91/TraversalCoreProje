@@ -18,9 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
     <Folder Include="EntityFramework\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
 
   <ItemGroup>
