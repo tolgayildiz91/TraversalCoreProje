@@ -23,6 +23,9 @@ namespace TraversalCoreProje.Mapping.AutoMapperProfile
             CreateMap<AnnouncementListDTO, Announcement>();
             CreateMap<Announcement, AnnouncementListDTO>();
 
+            CreateMap<AnnouncementUpdateDto, Announcement>();
+            CreateMap<Announcement, AnnouncementUpdateDto>();
+
         }
     }
 }
