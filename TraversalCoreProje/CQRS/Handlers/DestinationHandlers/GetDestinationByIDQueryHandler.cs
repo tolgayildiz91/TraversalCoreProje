@@ -21,7 +21,9 @@ namespace TraversalCoreProje.CQRS.Handlers.DestinationHandlers
             {
                 DestinationID = values.DestinationID,
                 City = values.City,
-                DayNight = values.DayNight
+                DayNight = values.DayNight,
+                Price=values.Price
+                
             
             };
         }
