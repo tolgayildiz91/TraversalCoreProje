@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAcce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{D18BA4A0-180D-40B6-B28D-24D1E54ABBB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOLayer", "DTOLayer\DTOLayer.csproj", "{DBD5A09A-1FA4-48F3-AE92-CE81D5B0BA6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOLayer", "DTOLayer\DTOLayer.csproj", "{DBD5A09A-1FA4-48F3-AE92-CE81D5B0BA6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRApi", "SignalRApi\SignalRApi.csproj", "{6D2BD2C6-7A30-4F5A-AC62-C8491302FC6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRConsume", "SignalRConsume\SignalRConsume.csproj", "{F55FE1C5-0B5D-4F5B-A0EE-EC26165F0C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRApiForSql", "SignalRApiForSql\SignalRApiForSql.csproj", "{E2B6113F-A871-4000-8167-65078306104F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{DBD5A09A-1FA4-48F3-AE92-CE81D5B0BA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBD5A09A-1FA4-48F3-AE92-CE81D5B0BA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBD5A09A-1FA4-48F3-AE92-CE81D5B0BA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2BD2C6-7A30-4F5A-AC62-C8491302FC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2BD2C6-7A30-4F5A-AC62-C8491302FC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2BD2C6-7A30-4F5A-AC62-C8491302FC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2BD2C6-7A30-4F5A-AC62-C8491302FC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55FE1C5-0B5D-4F5B-A0EE-EC26165F0C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55FE1C5-0B5D-4F5B-A0EE-EC26165F0C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55FE1C5-0B5D-4F5B-A0EE-EC26165F0C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55FE1C5-0B5D-4F5B-A0EE-EC26165F0C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B6113F-A871-4000-8167-65078306104F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B6113F-A871-4000-8167-65078306104F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B6113F-A871-4000-8167-65078306104F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B6113F-A871-4000-8167-65078306104F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
