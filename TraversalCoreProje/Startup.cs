@@ -6,7 +6,9 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -45,7 +47,7 @@ namespace TraversalCoreProje
 
 
             services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider).AddEntityFrameworkStores<Context>();
 
             services.AddHttpClient();
            
@@ -66,7 +68,20 @@ namespace TraversalCoreProje
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
 
-            services.AddMvc();
+
+            services.AddLocalization(opt =>
+            {
+                opt.ResourcesPath = "Resources";
+            });
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Login/SignIn/";
+            });
+
+            services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
+
+
 
 
         }
@@ -94,6 +109,10 @@ namespace TraversalCoreProje
             app.UseRouting();
 
             app.UseAuthorization();
+
+            var suppertedCultures = new[] { "en", "fr", "es", "gr", "tr", "de" };
+            var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(suppertedCultures[1]).AddSupportedCultures(suppertedCultures).AddSupportedUICultures(suppertedCultures);
+            app.UseRequestLocalization(localizationOptions);
 
             app.UseEndpoints(endpoints =>
             {
