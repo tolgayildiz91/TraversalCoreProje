@@ -5,13 +5,12 @@ using System.Threading.Tasks;
 
 namespace TraversalCoreProje.ViewComponents.MemberDashboard
 {
-    public class _GuideList:ViewComponent
+    public class _GuideList : ViewComponent
     {
-
-        GuideManager _guideManager = new GuideManager(new EfGuideDal());
-        public async Task<IViewComponentResult> InvokeAsync()
+        GuideManager guideManager = new GuideManager(new EfGuideDal());
+        public IViewComponentResult Invoke()
         {
-            var values = _guideManager.TGetList();
+            var values = guideManager.TGetList();
             return View(values);
         }
     }
