@@ -55,3 +55,42 @@ Traversal Rezervasyon Asp.Net Core 5.0 Mini Proje
 </ol>
 <hr>
 <h3>Proje Görselleri</h3>
+
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/404Sayfasi.jpg?raw=true"  width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/AdminPanel.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/AktifRotalar.jpg?raw=true" width="800"></img>
+
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/Anasayfa.jpg?raw=true" width="800"></img>
+
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/BookingApi.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/BookingApiKur.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/ContactUs.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/Icerik1.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/Login.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/MailGonder.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/OnayBekleyenRez.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/Profil.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/Rehberler.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/RolListesi.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/Rotalar.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/SignalRveri.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/SonRotalar.jpg?raw=true" width="800"></img>
+
+<img src="https://github.com/tolgayildiz91/TraversalCoreProje/blob/master/TraversalCoreProje/wwwroot/ProjeFotolar/dashboard.jpg?raw=true" width="800"></img>
